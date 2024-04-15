@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome 6.5.2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <div class="container">
         
         <header>
-            <nav>
-                <ul>
+            <nav class="Flexnav">
+                <ul class="Flexitemnav">
                     <li>
-                        logo
+                        <img src="img/logo-small.png" alt="logo">
                     </li>
                     <li>
                         Perchè Dropbox
@@ -24,6 +27,9 @@
                     <li>
                         Piani e Prezzi
                     </li>
+                </ul>
+                
+                <ul class="Flexitemnav">
                     <li>
                         Supporto
                     </li>
@@ -36,36 +42,36 @@
                     <li>
                         Inizia
                     </li>
-                </ul>
+                </ul> 
             </nav>
 
-            <article>
-                <h1>
-                    Tutto ciò che ti serve per il<br>lavoro, in un unico posto
-                </h1>
-            </article>
-            
-            <article>
-                <p>
-                    Finalmente tutti i tuoi strumenti, contenuti e<br>collaboratori sono accessibili dallo stesso posto.<br>Dropbpox Business è più di uno spazio di<br>archiviazione sicuro: è un modo intelligente e<br>integrato per ottimizzare il flusso di lavoro<br>esistente.
-                </p>
-            </article>
+            <div class="Containerheader">
+                <article>
+                    <h1 class="Positionrelative">
+                        Tutto ciò che ti serve per il<br>lavoro, in un unico posto
+                    </h1>
+                </article>
+                
+                <article class="Flexarticle">
+                    <p id="p1" class="Positionabsolute">
+                        Finalmente tutti i tuoi strumenti, contenuti e<br>collaboratori sono accessibili dallo stesso posto.<br>Dropbpox Business è più di uno spazio di<br>archiviazione sicuro: è un modo intelligente e<br>integrato per ottimizzare il flusso di lavoro<br>esistente.
+                    </p>
 
-            <section>
-                Inizia la tua prova gratutia
-            </section>
+                    <button id="p2" class="Positionabsolute">
+                        Inizia la tua prova gratuita
+                    </button>
+                    
+                    <p id="p3" class="Positionabsolute">
+                        Annulla in qualsiasi momento
+                    </p>
 
-            <section>
-                Annulla in qualsiasi momento
-            </section>
-
-            <section>
-                freccia verso il basso
-            </section>
-
-            <section>
-                <img src="img/jumbo.png" alt="Jumbo">
-            </section>
+                    <p id="p4" class="Positionabsolute">freccia verso il basso</p>
+                </article>
+    
+                <section>
+                    <img src="img/jumbo.png" alt="Jumbo">
+                </section>
+            </div>
         </header>
 
         <main>
