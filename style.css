@@ -249,9 +249,14 @@ section div.testoimgpartner button {
 
 main section.Flexcontainerimgs {
     display: flex;
+    flex-direction: column;
     padding-top: 10rem;
 }
 
 main section div.Flexdiv {
     display: flex;
 }
+
+main section div img.imgwindow {
+}
+
