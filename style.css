@@ -260,3 +260,12 @@ main section div.Flexdiv {
 main section div img.imgwindow {
 }
 
+main section.Flexquadrati {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.flexxx {
+    display: flex;
+}
