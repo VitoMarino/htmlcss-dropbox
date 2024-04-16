@@ -253,5 +253,9 @@ section div.testoimgpartner button {
 
 main section.Flexcontainerimgs {
     display: flex;
+    padding-top: 10rem;
 }
 
+main section div.Flexdiv {
+    display: flex;
+}
