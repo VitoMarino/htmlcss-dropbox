@@ -14,7 +14,7 @@ ul {
     list-style: none;
 }
 
-a {
+nav ul li a {
     text-decoration: none;
     color: #707070;
 }
@@ -121,11 +121,20 @@ main div.Positionabsolute p:nth-child(2) {
 main section.Flextable {
     background-color: goldenrod;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-main section article.Article1 {
+main section article {
     border: solid;
     border-color: #707070;
+}
+
+main section article p:nth-child(1) {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+main section article div {
+    margin-left: 3rem;
 }
