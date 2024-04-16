@@ -14,18 +14,23 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: #707070;
+}
+
 nav.Flexnav {
     display: flex;
     align-items: center;
     padding: 2rem;
 }
 
-section.Flexitemnav {
+ul.Flexitemnav {
     display: flex;
     align-items: center;
 }
 
-header nav section a {
+header nav ul li a {
     margin-right: 1rem;
 }
 
@@ -86,4 +91,41 @@ header nav button {
     color: white;
     padding: .3rem;
     border-style: none;
+}
+
+section.Flexmain {
+    background-color: #186dfa;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem;
+}
+
+h2.Positionrelative {
+    position: relative;
+    right: 2.5rem;
+    font-size: 2rem;
+}
+
+main div.Positionabsolute p:nth-child(1) {
+    position: absolute;
+    left: 32.5rem;
+    margin-top: 3rem;
+}
+
+main div.Positionabsolute p:nth-child(2) {
+    position: absolute;
+    margin-top: 3rem;
+}
+
+main section.Flextable {
+    background-color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section article.Article1 {
+    border: solid;
+    border-color: #707070;
 }
