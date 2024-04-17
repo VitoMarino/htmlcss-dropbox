@@ -285,6 +285,7 @@ div.div-flex1 {
 }
 
 div.div-designit {
+    display: flex;
     background-color: #a2d39b;
     border: solid yellow;
 }
