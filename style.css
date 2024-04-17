@@ -279,7 +279,12 @@ main section.Flexquadrati {
     border: solid black;
 }
 
-div.flexxx {
+div.div-flex1 {
     display: flex;
     border: solid red;
+}
+
+div.div-flex2 {
+    background-color: #0061ff;
+    border: solid yellow;
 }
