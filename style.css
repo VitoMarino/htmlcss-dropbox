@@ -91,13 +91,6 @@ header article button {
 }
 
 
-
-
-
-
-
-
-
 main div section.paddingtop {
     padding-top: 10rem;
 }
@@ -300,7 +293,7 @@ div.div-designit {
 }
 
 div.div-designit img {
-    width: 50%;
+    
 }
 
 div.div-arizona {
@@ -310,8 +303,7 @@ div.div-arizona {
 }
 
 div.div-arizona img {
-    width: 50%;
-    height: 50%;
+    
 }
 
 div.universityflorida {
@@ -322,4 +314,32 @@ div.universityflorida {
 div.topps {
     display: flex;
     border: solid yellow;
+}
+
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+div.flexfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+
+footer p {
+    padding: 3rem;
+    padding-left: 30rem;
+    display: flex;
+}
+
+footer nav ul li {
+    margin-right: 3rem;
+    margin-bottom: 1rem;
 }
