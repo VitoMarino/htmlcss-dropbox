@@ -113,7 +113,13 @@ main section.Flextable {
     padding-top: 3rem;
 }
 
-main section article {
+main section.Flextable article {
+    border: solid;
+    border-color: #707070;
+    margin-right: 3rem;
+}
+
+main section article.Articlesingle {
     border: solid;
     border-color: #707070;
     margin-right: 3rem;
@@ -157,7 +163,7 @@ main section article div p:nth-child(6) {
 }
 
 main section article div p.pspaziorem {
-    margin-bottom: -1.3rem;
+    margin-bottom: -.1rem;
 }
 
 main section article div button:nth-child(7) {
@@ -247,25 +253,33 @@ section div.testoimgpartner button {
     background-color: white;
 }
 
-main section.Flexcontainerimgs {
+main section.flex-container-imgs {
     display: flex;
     flex-direction: column;
     padding-top: 10rem;
 }
 
-main section div.Flexdiv {
+main section div.flexdiv {
     display: flex;
+    margin-bottom: 4rem;
 }
 
-main section div img.imgwindow {
+main section div img.img-window {
+    width: 100%;
+}
+
+article.scopri-di-più {
+    padding-top: 4rem;
 }
 
 main section.Flexquadrati {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid black;
 }
 
 div.flexxx {
     display: flex;
+    border: solid red;
 }
