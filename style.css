@@ -43,6 +43,7 @@ header nav ul li {
 }
 
 div.Containerheader {
+    height: 65vh;
     background-color: #b4d0e7;
     padding: 5rem;
     padding-left: 10rem;
