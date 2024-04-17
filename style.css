@@ -267,6 +267,7 @@ main section div img.img-window {
 
 article.scopri-di-più {
     padding-top: 4rem;
+    padding-bottom: 6rem;
 }
 
 main section.section-flex-container-big {
@@ -298,6 +299,7 @@ div.div-designit {
 div.div-designit img {
     height: 25%;
     width: 25%;
+    filter: invert(1);
 }
 
 div.div-arizona {
@@ -313,6 +315,7 @@ div.div-arizona {
 div.div-arizona img {
     height: 25%;
     width: 25%;
+    filter: invert(1);
 }
 
 div.universityflorida {
@@ -328,6 +331,7 @@ div.universityflorida {
 div.universityflorida img {
     height: 25%;
     width: 25%;
+    filter: invert(1);
 }
 
 div.topps {
@@ -343,6 +347,7 @@ div.topps {
 div.topps img {
     height: 50%;
     width: 50%;
+    filter: invert(1);
 }
 
 div.world_bicycle_relief {
@@ -358,6 +363,7 @@ div.world_bicycle_relief {
 div.world_bicycle_relief img {
     height: 50%;
     width: 50%;
+    filter: invert(1);
 }
 
 div.hearts-corp {
@@ -373,6 +379,7 @@ div.hearts-corp {
 div.hearts-corp img {
     height: 50%;
     width: 50%;
+    filter: invert(1);
 }
 
 div.lonely_planet {
@@ -388,6 +395,7 @@ div.lonely_planet {
 div.lonely_planet img {
     height: 50%;
     width: 50%;
+    filter: invert(1);
 }
 
 div.clear_channel {
@@ -403,6 +411,7 @@ div.clear_channel {
 div.clear_channel img {
     height: 50%;
     width: 50%;
+    filter: invert(1);
 }
 
 img.designit {
