@@ -269,7 +269,7 @@ article.scopri-di-più {
     padding-top: 4rem;
 }
 
-main section.section-flex-quadrati {
+main section.section-flex-container-big {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,56 +280,183 @@ article.article-flex-quadrati4 {
     display: flex;
     flex-direction: column;
     border: solid red;
-}
-
-div.div-flex-quadrati2 {
-    display: flex;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    background-color: #f5f5f5;
 }
 
 div.div-designit {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
     background-color: #a2d39b;
     border: solid yellow;
 }
 
 div.div-designit img {
-    
+    height: 25%;
+    width: 25%;
 }
 
 div.div-arizona {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
     background-color: #61082b;
     border: solid yellow;
 }
 
 div.div-arizona img {
-    
+    height: 25%;
+    width: 25%;
 }
 
 div.universityflorida {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
     border: solid yellow;
+    background-color: #0093ce;
+}
+
+div.universityflorida img {
+    height: 25%;
+    width: 25%;
 }
 
 div.topps {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
     border: solid yellow;
+    background-color: #ff1c1c;
 }
 
+div.topps img {
+    height: 50%;
+    width: 50%;
+}
 
+div.world_bicycle_relief {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    border: solid yellow;
+    background-color: #d5001f;
+}
 
+div.world_bicycle_relief img {
+    height: 50%;
+    width: 50%;
+}
 
+div.hearts-corp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    border: solid yellow;
+    background-color: #b4d0e7;
+}
 
+div.hearts-corp img {
+    height: 50%;
+    width: 50%;
+}
 
-footer {
-    background-color: black;
-    color: white;
+div.lonely_planet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    border: solid yellow;
+    background-color: #0d2481;
+}
+
+div.lonely_planet img {
+    height: 50%;
+    width: 50%;
+}
+
+div.clear_channel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    border: solid yellow;
+    background-color: #ffd830;
+}
+
+div.clear_channel img {
+    height: 50%;
+    width: 50%;
+}
+
+img.designit {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    width: 50%;
+}
+
+p.firma {
+    padding-top: 3rem;
+}
+
+section.end-main {
+    display: flex;
+    background-color: #b4d0e7;
+    padding: 5rem;
+    padding-left: 25rem;
+    font-size: 2rem;
+    color: #723756;
+}
+
+section.end-main button {
+    margin-left: 8rem;
+    border-style: none;
+    background-color: white;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+section.domande-frequenti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 15rem;
+}
+
+section.domande-frequenti h4 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+section.domande-frequenti ul li {
+    margin-bottom: 4rem;
 }
 
 div.flexfooter {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    color: white;
     padding: 10rem;
 }
 
@@ -337,9 +464,16 @@ footer p {
     padding: 3rem;
     padding-left: 30rem;
     display: flex;
+    background-color: black;
+    color: white;
 }
 
 footer nav ul li {
     margin-right: 3rem;
     margin-bottom: 1rem;
 }
+
+/* div.classe > img { 
+    filter: invert(1);
+}
+*/
