@@ -277,148 +277,153 @@ main section.section-flex-container-big {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid black;
 }
 
 article.article-flex-quadrati4 {
     display: flex;
     flex-direction: column;
-    border: solid red;
     width: calc(100vw / 3);
     height: calc(100vw / 3);
     background-color: #f5f5f5;
 }
 
-div.div-designit {
+div.div-flex-2 {
+    display: flex;
+}
+
+div.div-img-1 {
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #a2d39b;
-    border: solid yellow;
 }
 
-div.div-designit img {
+div.div-img-1 img {
     height: 50%;
     width: 50%;
     filter: invert(1);
 }
 
-div.div-arizona {
+div.div-img-2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
     background-color: #61082b;
-    border: solid yellow;
 }
 
-div.div-arizona img {
-    height: 25%;
-    width: 25%;
+div.div-img-2 img {
+    height: 50%;
+    width: 50%;
     filter: invert(1);
 }
 
-div.universityflorida {
+div.div-img-3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    border: solid yellow;
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
     background-color: #0093ce;
 }
 
-div.universityflorida img {
-    height: 25%;
-    width: 25%;
+div.div-img-3 img {
+    height: 100px;
+    width: 200px;
     filter: invert(1);
 }
 
-div.topps {
+div.div-img-4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    border: solid yellow;
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
     background-color: #ff1c1c;
 }
 
-div.topps img {
+div.div-img-4 img {
     height: 50%;
     width: 50%;
     filter: invert(1);
 }
 
-div.world_bicycle_relief {
+div.div-img-1b {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
-    border: solid yellow;
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
     background-color: #d5001f;
 }
 
-div.world_bicycle_relief img {
+div.div-img-1b img {
     height: 50%;
     width: 50%;
     filter: invert(1);
 }
 
-div.hearts-corp {
+div.div-img-2b {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
-    border: solid yellow;
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
     background-color: #b4d0e7;
 }
 
-div.hearts-corp img {
+div.hdiv-img-2b img {
     height: 50%;
-    width: 50%;
+    width: 40%;
     filter: invert(1);
 }
 
-div.lonely_planet {
+div.div-img-3b {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
-    border: solid yellow;
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
     background-color: #0d2481;
 }
 
-div.lonely_planet img {
+div.div-img-3b img {
     height: 50%;
     width: 50%;
     filter: invert(1);
 }
 
-div.clear_channel {
+div.div-img-4b {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
-    border: solid yellow;
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
     background-color: #ffd830;
 }
 
-div.clear_channel img {
+div.div-img-4b img {
     height: 50%;
     width: 50%;
     filter: invert(1);
 }
 
 img.designit {
+    margin-left: 3rem;
     padding-top: 2rem;
     padding-bottom: 5rem;
     width: 50%;
 }
 
+p.testo-quadrato-singolo {
+    margin-left: 3rem;
+}
+
 p.firma {
+    margin-left: 3rem;
     padding-top: 3rem;
 }
 
@@ -478,8 +483,4 @@ footer p {
 footer nav ul li {
     margin-right: 3rem;
     margin-bottom: 1rem;
-}
-
-div.prova {
-    display: flex;
 }
