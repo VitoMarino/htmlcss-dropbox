@@ -69,7 +69,7 @@ article.flex-header-article {
 section.position-absolute-jumbo {
     position: absolute;
     top: 23.5rem;
-    left: calc(32rem + 17rem);
+    left: 49rem;
 }
 
 article.flex-header-article p:nth-child(3) {
@@ -82,8 +82,8 @@ article.flex-header-article button {
 
 header div section img {
     display: flex;
-    width: 50%;
-    height: 25%;
+    width: 800px;
+    height: 450px;
 }
 
 header article button {
