@@ -108,6 +108,17 @@ main div section p.p-inlineblock {
     margin-right: 2rem;
 }
 
+span.people {
+    display: inline-block;
+    text-align: center;
+    height: 1.5rem;
+    width: 1rem;
+}
+
+span.people-p {
+    display: inline-block;
+}
+
 main section.flex-table {
     display: flex;
     padding-top: 3rem;
