@@ -290,15 +290,13 @@ div.div-designit {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
     background-color: #a2d39b;
     border: solid yellow;
 }
 
 div.div-designit img {
-    height: 25%;
-    width: 25%;
+    height: 50%;
+    width: 50%;
     filter: invert(1);
 }
 
@@ -306,8 +304,7 @@ div.div-arizona {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
+    
     background-color: #61082b;
     border: solid yellow;
 }
@@ -322,8 +319,7 @@ div.universityflorida {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    height: 50%;
+    
     border: solid yellow;
     background-color: #0093ce;
 }
@@ -338,8 +334,7 @@ div.topps {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
+    
     border: solid yellow;
     background-color: #ff1c1c;
 }
@@ -482,7 +477,6 @@ footer nav ul li {
     margin-bottom: 1rem;
 }
 
-/* div.classe > img { 
-    filter: invert(1);
+div.prova {
+    display: flex;
 }
-*/
