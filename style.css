@@ -116,7 +116,38 @@ span.people {
 }
 
 span.people-p {
+    position: relative;
+    bottom: .1rem;
+    margin-right: .4rem;
+}
+
+.span-check {
+    position: relative;
+    right: .1rem;
+    color: #0160ff;
+}
+
+span.span-azienda {
+    color: black;
     display: inline-block;
+    text-align: center;
+    height: 1.5rem;
+    width: 1rem;
+}
+
+span.span-freccia-verso-il-basso {
+    display: flex;
+    margin-top: 3rem;
+}
+
+span.span-stella {
+    display: inline-block;
+    margin-right: .1rem;
+}
+
+span.span-telephone {
+    display: inline-block;
+    margin-right: .2rem;
 }
 
 main section.flex-table {
@@ -182,7 +213,7 @@ main section article div button:nth-child(7) {
     background-color: #186dfa;
     color: white;
     border: none;
-    padding: .8rem;
+    padding: .5rem;
 }
 
 main section article div p:nth-child(8) {
@@ -220,7 +251,7 @@ main section article.article-single button {
     background-color: #0061ff;
     color: white;
     border: none;
-    padding: .8rem;
+    padding: .5rem;
 }
 
 main section article.article-single {
@@ -311,6 +342,11 @@ div.div-img-1 {
     background-color: #a2d39b;
 }
 
+div.div-img-1:hover {
+    margin: 1rem;
+    border-style: hidden;
+}
+
 div.div-img-1 img {
     height: 50%;
     width: 50%;
@@ -326,6 +362,12 @@ div.div-img-2 {
     background-color: #61082b;
 }
 
+div.div-img-2:hover {
+    margin: 1rem;
+    border-style: hidden;
+}
+
+
 div.div-img-2 img {
     height: 50%;
     width: 50%;
@@ -339,6 +381,11 @@ div.div-img-3 {
     width: calc(100vw / 6);
     height: calc(100vw / 6);
     background-color: #0093ce;
+}
+
+div.div-img-3:hover {
+    margin: 1rem;
+    border-style: hidden;
 }
 
 div.div-img-3 img {
@@ -362,6 +409,11 @@ div.div-img-4 img {
     filter: invert(1);
 }
 
+div.div-img-4:hover {
+    margin: 1rem;
+    border-style: hidden;
+}
+
 div.div-img-1b {
     display: flex;
     justify-content: center;
@@ -369,6 +421,11 @@ div.div-img-1b {
     width: calc(100vw / 6);
     height: calc(100vw / 6);
     background-color: #d5001f;
+}
+
+div.div-img-1b:hover {
+    margin: 1rem;
+    border-style: hidden;
 }
 
 div.div-img-1b img {
@@ -386,6 +443,11 @@ div.div-img-2b {
     background-color: #b4d0e7;
 }
 
+div.div-img-2b:hover {
+    margin: 1rem;
+    border-style: hidden;
+}
+
 div.hdiv-img-2b img {
     height: 50%;
     width: 40%;
@@ -401,6 +463,11 @@ div.div-img-3b {
     background-color: #0d2481;
 }
 
+div.div-img-3b:hover {
+    margin: 1rem;
+    border-style: hidden;
+}
+
 div.div-img-3b img {
     height: 50%;
     width: 50%;
@@ -414,6 +481,11 @@ div.div-img-4b {
     width: calc(100vw / 6);
     height: calc(100vw / 6);
     background-color: #ffd830;
+}
+
+div.div-img-4b:hover {
+    margin: 1rem;
+    border-style: hidden;
 }
 
 div.div-img-4b img {
