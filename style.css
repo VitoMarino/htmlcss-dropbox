@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+* {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -19,14 +22,14 @@ nav ul li a {
     color: #707070;
 }
 
-nav.Flexnav {
+nav.flex-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
 }
 
-ul.Flexitemnav {
+ul.flex-item-nav {
     display: flex;
     align-items: center;
 }
@@ -42,7 +45,7 @@ header nav ul li {
     margin-right: 1rem;
 }
 
-div.Containerheader {
+div.container-header {
     height: 65vh;
     background-color: #b4d0e7;
     padding: 5rem;
@@ -55,7 +58,7 @@ header article h1 {
     margin-left: 17rem;
 }
 
-article.flexheaderxxx {
+article.flex-header-article {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -63,17 +66,17 @@ article.flexheaderxxx {
     margin-left: 17rem;
 }
 
-section.positionabsolutejumbo {
+section.position-absolute-jumbo {
     position: absolute;
     top: 23.5rem;
     left: calc(32rem + 17rem);
 }
 
-article.flexheaderxxx p:nth-child(3) {
+article.flex-header-article p:nth-child(3) {
     padding-top: 2rem;
 }
 
-article.flexheaderxxx button {
+article.flex-header-article button {
     margin-top: 2rem;
 }
 
@@ -100,29 +103,29 @@ h2 {
     padding-bottom: 3rem;
 }
 
-main div section p.pinlineblock {
+main div section p.p-inlineblock {
     display: inline-block;
     margin-right: 2rem;
 }
 
-main section.Flextable {
+main section.flex-table {
     display: flex;
     padding-top: 3rem;
 }
 
-main section.Flextable article {
+main section.flex-table article {
     border: solid;
     border-color: #707070;
     margin-right: 3rem;
 }
 
-main section article.Articlesingle {
+main section article.article-single {
     border: solid;
     border-color: #707070;
     margin-right: 3rem;
 }
 
-main section div.paddingdiv {
+main section div.padding-div {
     padding: 3rem;
 }
 
@@ -139,7 +142,7 @@ main section article div h3 {
     margin-top: 2rem;
 }
 
-p.paddingplus {
+p.padding-plus {
     padding-bottom: 3rem;
 }
 
@@ -159,7 +162,7 @@ main section article div p:nth-child(6) {
     margin-top: 1rem;
 }
 
-main section article div p.pspaziorem {
+main section article div p.p-spaziorem {
     margin-bottom: -.1rem;
 }
 
@@ -199,7 +202,7 @@ main section article div p:nth-child(14) {
     margin-top: 1rem;
 }
 
-main section article.Articlesingle button {
+main section article.article-single button {
     display: inline-block;
     margin-top: 1rem;
     margin-left: 37rem;
@@ -209,7 +212,7 @@ main section article.Articlesingle button {
     padding: .8rem;
 }
 
-main section article.Articlesingle {
+main section article.article-single {
     margin-top: 2rem;
 }
 
@@ -217,31 +220,31 @@ main section article div h3.inlineblockh3 {
     display: inline-block;
 }
 
-main section article div p.divppaddingbottom {
+main section article div p.div-p-padding-bottom {
     padding-bottom: 2rem;
 }
 
-main section.imgpartnerflex  {
+main section.img-partner-flex  {
     display:flex;
     align-items: center;
     padding-top: 8rem;
 }
 
-main section img.imgpartner {
+main section img.img-partner {
     width: 50%;
     height: 25%;
 }
 
-main section div.testoimgpartner {
+main section div.testo-img-partner {
     padding-bottom: 8rem;
     padding-left: 3rem;
 }
 
-main section div.testoimgpartner h3 {
+main section div.testo-img-partner h3 {
     margin-bottom: 1rem;
 }
 
-section div.testoimgpartner button {
+section div.testo-img-partner button {
     margin-top: 1rem;
     border-radius: 0;
     padding: .5rem;
@@ -256,7 +259,7 @@ main section.flex-container-imgs {
     padding-top: 10rem;
 }
 
-main section div.flexdiv {
+main section div.flex-div {
     display: flex;
     margin-bottom: 4rem;
 }
@@ -455,7 +458,7 @@ section.domande-frequenti ul li {
     margin-bottom: 4rem;
 }
 
-div.flexfooter {
+div.flex-footer {
     display: flex;
     justify-content: center;
     align-items: center;
